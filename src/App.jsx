@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart3, Plus, Settings, TrendingUp } from 'lucide-react';
+import { BarChart3, Plus, Settings as SettingsIcon, TrendingUp } from 'lucide-react';
 import Dashboard from './components/Dashboard';
 import TradeForm from './components/TradeForm';
 import TradeTable from './components/TradeTable';
@@ -55,7 +55,7 @@ function App() {
   const tabs = [
     { id: 'dashboard', label: 'Dashboard', icon: BarChart3 },
     { id: 'trades', label: 'Trades', icon: TrendingUp },
-    { id: 'settings', label: 'Settings', icon: Settings }
+    { id: 'settings', label: 'Settings', icon: SettingsIcon }
   ];
 
   return (
