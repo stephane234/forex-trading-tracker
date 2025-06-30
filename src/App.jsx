@@ -6,6 +6,7 @@ import TradeTable from './components/TradeTable';
 import SettingsComponent from './components/Settings';
 import { loadTrades, saveTrades, loadSettings, saveSettings, loadGoals, saveGoals } from './utils/storage';
 
+// Forex Trading Tracker App - Main Component
 function App() {
   const [trades, setTrades] = useState([]);
   const [settings, setSettings] = useState({});
