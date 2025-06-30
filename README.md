@@ -4,7 +4,7 @@ A responsive web application for tracking Forex trading performance with compreh
 
 ## 🌐 Live Demo
 
-**[View Live App](https://yourusername.github.io/forex-trading-tracker/)**
+**[View Live App](https://stephane234.github.io/forex-trading-tracker/)**
 
 ## Features
 
